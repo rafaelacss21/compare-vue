@@ -3,7 +3,7 @@
     <div class="nav has-shadow">
       <div class="container">
         <div class="nav-left">
-          <a href="#" class="nav-item">MyCompany</a>
+          <a href="/" class="nav-item">MyCompany</a>
         </div>
         <span class="nav-toggle" v-on:click="toggleNav" v-bind:class="{ 'is-active': isActive }">
           <span></span>
@@ -77,7 +77,7 @@ export default {
 .nav
   background-color: #383838
   a:hover
-    color: gray
+    color: white
 
 .nav-left a 
   color: #fff
@@ -87,7 +87,7 @@ a.r-item
   color:#C1C1C1
   padding: 0.5rem 1.75rem
   +mobile
-    color: gray
+    color: white
     &:hover
       background-color: #F1F1F1
 
